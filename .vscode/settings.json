@@ -17,6 +17,9 @@
             ]
         }
     ],
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
 
     "latex-workshop.latex.recipes": [
         {

@@ -1,7 +1,7 @@
-PWD c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report
+PWD c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report
 INPUT C:\Users\vedan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\main.tex
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.log
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\main.tex
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.log
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -249,10 +249,10 @@ INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\newtx\t1ntxtlf.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\newtx\t1ntxtlf.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\newtx\t1ntxtlf.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
@@ -277,21 +277,21 @@ INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-ptm.cf
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-ptm.cfg
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-ptm.cfg
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bcf
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bbl
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bbl
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bbl
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bbl
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bbl
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bcf
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bbl
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bbl
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bbl
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bbl
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bbl
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.pdf
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.pdf
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
@@ -337,11 +337,11 @@ INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
 INPUT C:\Users\vedan\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.toc
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.toc
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.toc
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.toc
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.toc
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.toc
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-t1.tfm
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.toc
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.toc
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qhv.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qhv.fd
@@ -591,6 +591,9 @@ INPUT .\Figures\probability_v=1.5_w=1.0_N=20.pdf
 INPUT .\Figures\probability_v=1.5_w=1.0_N=20.pdf
 INPUT .\Figures\probability_v=1.5_w=1.0_N=20.pdf
 INPUT .\Figures\probability_v=1.5_w=1.0_N=20.pdf
+INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
 INPUT .\Figures\onsite_potential\spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf
 INPUT .\Figures\onsite_potential\spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf
 INPUT .\Figures\onsite_potential\spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf
@@ -679,11 +682,11 @@ INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\txfonts\t1txtt.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex\latex\txfonts\t1txtt.fd
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xbtt.tfm
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\t1xttsl.tfm
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out
-INPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.run.xml
-OUTPUT c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.run.xml
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out
+INPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.run.xml
+OUTPUT c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.run.xml
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXBMI.pfb
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXBMI.pfb
 INPUT C:\Users\vedan\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI.pfb

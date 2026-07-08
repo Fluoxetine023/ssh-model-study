@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {3.9}Winding Number}{33}{subsection.3.9}%
 \contentsline {subsection}{\numberline {3.10}Three-Dimensional Winding Trajectory}{33}{subsection.3.10}%
 \contentsline {section}{\numberline {4}Conclusion}{35}{section.4}%
-\contentsline {section}{References}{37}{section*.24}%
+\contentsline {section}{References}{37}{section*.23}%
 \contentsline {section}{\numberline {A}Python Implementations}{38}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Dispersion Relation and Winding Trajectories}{38}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Finite SSH Chain: Numerical Diagonalization}{39}{subsection.A.2}%

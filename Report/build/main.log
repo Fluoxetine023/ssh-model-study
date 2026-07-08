@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.25)  8 JUL 2026 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.7)  8 JUL 2026 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/vedan/OneDrive/Desktop/Vijay Vedanth Vemula/Summer 26/Internship-Summer_26/Report/main.tex"
-(c:/Users/vedan/OneDrive/Desktop/Vijay Vedanth Vemula/Summer 26/Internship-Summer_26/Report/main.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-19>
+**"c:/Users/vedan/Desktop/Things/IISER Tirupati/Summer 26/Internship-Summer_26/Report/main.tex"
+(c:/Users/vedan/Desktop/Things/IISER Tirupati/Summer 26/Internship-Summer_26/Report/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
 (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
@@ -46,20 +46,20 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks18
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxtext.sty
 Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
  `newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-07-19 L3 programming layer (loader) 
+Package: expl3 2026-01-19 L3 programming layer (loader) 
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count287
 )) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -68,7 +68,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
@@ -130,7 +130,7 @@ LaTeX Info: Redefining \oldstylenums on input line 902.
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
 Package: newtxmath 2024/09/22 v1.754
  `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
@@ -191,8 +191,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
@@ -301,28 +301,28 @@ LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
 LaTeX Info: Redefining \Bbbk on input line 2847.
 LaTeX Info: Redefining \not on input line 2995.
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
-Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 \MT@toks=\toks29
 \MT@tempbox=\box55
 \MT@count=\count308
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
-LaTeX Info: Redefining \leftprotrusion on input line 1085.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks30
-LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen180
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count309
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
-File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip54
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
@@ -575,7 +575,7 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-07-19 L3 programming layer (loader) 
+(biblatex)             2026-01-19 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
@@ -630,20 +630,27 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \lst@lineno=\count450
 \lst@maxwidth=\dimen194
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count451
 \lst@skipnumbers=\count452
 \lst@framebox=\box57
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
+File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
@@ -651,7 +658,7 @@ Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
@@ -665,7 +672,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count454
 \Hy@pagecounter=\count455
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -673,20 +680,20 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count456
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count457
-LaTeX Info: Redefining \url on input line 4801.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen196
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -696,20 +703,20 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count458
 \Field@Width=\dimen197
 \Fld@charsize=\dimen198
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring ON on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring ON on input line 6102.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count459
 \c@Item=\count460
 \c@Hfootnote=\count461
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count462
 \c@bookmark@seq@number=\count463
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
@@ -828,7 +835,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 4.
 \@quotelevel=\count472
 \@quotereset=\count473
- (c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux)
+ (c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 4.
@@ -934,7 +941,10 @@ LaTeX Info: Redefining \microtypecontext on input line 4.
 Package microtype Info: Applying patch `item' on input line 4.
 Package microtype Info: Applying patch `toc' on input line 4.
 Package microtype Info: Applying patch `eqnum' on input line 4.
-Package microtype Info: Applying patch `footnote' on input line 4.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 4.
+
 Package microtype Info: Applying patch `verbatim' on input line 4.
 LaTeX Info: Redefining \microtypesetup on input line 4.
 Package microtype Info: Generating PDF output.
@@ -947,7 +957,7 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+(C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package biblatex Info: Trying to load language 'english'...
@@ -962,7 +972,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.bbl)
+ (c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 4.
 Package biblatex Info: Reference segment=0 on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
@@ -971,7 +981,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count482
 Package hyperref Info: Link coloring ON on input line 4.
- (c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out) (c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.out)
+ (c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out) (c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1057,25 +1067,21 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.1pt on input line 23.
-
-
-[1
+ [1
 
 {C:/Users/vedan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
 Package hyperref Info: Option `pageanchor' set `false' on input line 40.
- (c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.toc
+ (c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.toc
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 47.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 47.
-(C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
+ (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
@@ -1091,476 +1097,384 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 48.
 <Figures/ssh_chain_bulkedge.pdf, id=206, 322.40135pt x 26.8457pt>
 File: Figures/ssh_chain_bulkedge.pdf Graphic file (type pdf)
 <use Figures/ssh_chain_bulkedge.pdf>
-Package pdftex.def Info: Figures/ssh_chain_bulkedge.pdf  used on input line 67.
+Package pdftex.def Info: Figures/ssh_chain_bulkedge.pdf  used on input line 70.
 (pdftex.def)             Requested size: 416.83289pt x 34.71135pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 73.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 73.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 73.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 78.
+(Font)              scaled to size 8.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 78.
-
-
+(Font)              scaled to size 6.1pt on input line 81.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \begin{align*}
+l.86 \end{equation}
                     [1
 
-{C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./Figures/ssh_chain_bulkedge.pdf>]
-
-[2]
-
-[3]
-
-[4]
-
-[5]
-
-[6]
+ <./Figures/ssh_chain_bulkedge.pdf>] [2{C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] [3] [4] [5] [6]
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `OML/ntxmi/b/it' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `OML/ntxmi/b/it' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `OML/ntxmi/b/it' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxmia/b/it' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxmia/b/it' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxmia/b/it' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxsym/b/n' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxsym/b/n' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxsym/b/n' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxsyc/b/n' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxsyc/b/n' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxsyc/b/n' will be
-(Font)              scaled to size 6.1pt on input line 511.
+(Font)              scaled to size 6.1pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxexa/b/n' will be
-(Font)              scaled to size 10.95pt on input line 511.
+(Font)              scaled to size 10.95pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxexa/b/n' will be
-(Font)              scaled to size 8.0pt on input line 511.
+(Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Font shape `U/ntxexa/b/n' will be
-(Font)              scaled to size 6.1pt on input line 511.
-<Figures/ssh_bands_winding.pdf, id=294, 1450.96045pt x 586.59103pt>
+(Font)              scaled to size 6.1pt on input line 514.
+<Figures/ssh_bands_winding.pdf, id=293, 1450.96045pt x 586.59103pt>
 File: Figures/ssh_bands_winding.pdf Graphic file (type pdf)
 <use Figures/ssh_bands_winding.pdf>
-Package pdftex.def Info: Figures/ssh_bands_winding.pdf  used on input line 531.
+Package pdftex.def Info: Figures/ssh_bands_winding.pdf  used on input line 534.
 (pdftex.def)             Requested size: 416.83289pt x 168.51382pt.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 10.0pt on input line 536.
+(Font)              scaled to size 10.0pt on input line 539.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 7.3pt on input line 536.
+(Font)              scaled to size 7.3pt on input line 539.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 5.5pt on input line 536.
-
-
-[7]
+(Font)              scaled to size 5.5pt on input line 539.
+ [7]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 542.
-
-
-[8 <./Figures/ssh_bands_winding.pdf>]
-
-[9]
-
-[10]
-
-[11]
-
-[12]
-
-[13]
-
-[14]
-
-[15]
-
-[16]
-
-[17]
-
-[18]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 1440.
+(Font)              scaled to size 10.95pt on input line 545.
+ [8 <./Figures/ssh_bands_winding.pdf>] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 1443.
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 1440.
+(Font)              scaled to size 10.95pt on input line 1443.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-[19]
+ [19]
 <Figures/spectrum_v=0.2_w=1.0_N=10.pdf, id=418, 542.74767pt x 325.9377pt>
 File: Figures/spectrum_v=0.2_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=0.2_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/spectrum_v=0.2_w=1.0_N=10.pdf  used on input line 1475.
+Package pdftex.def Info: Figures/spectrum_v=0.2_w=1.0_N=10.pdf  used on input line 1478.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1476.
+(Font)              scaled to size 9.0pt on input line 1479.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1476.
+(Font)              scaled to size 6.6pt on input line 1479.
 <Figures/spectrum_v=0.5_w=1.0_N=10.pdf, id=419, 542.74767pt x 325.9377pt>
 File: Figures/spectrum_v=0.5_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=0.5_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/spectrum_v=0.5_w=1.0_N=10.pdf  used on input line 1482.
+Package pdftex.def Info: Figures/spectrum_v=0.5_w=1.0_N=10.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
 <Figures/spectrum_v=1.0_w=1.0_N=10.pdf, id=420, 531.32419pt x 325.9377pt>
 File: Figures/spectrum_v=1.0_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=1.0_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/spectrum_v=1.0_w=1.0_N=10.pdf  used on input line 1491.
+Package pdftex.def Info: Figures/spectrum_v=1.0_w=1.0_N=10.pdf  used on input line 1494.
 (pdftex.def)             Requested size: 200.078pt x 122.73859pt.
 <Figures/spectrum_v=1.5_w=1.0_N=10.pdf, id=421, 542.74767pt x 325.9377pt>
 File: Figures/spectrum_v=1.5_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=1.5_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/spectrum_v=1.5_w=1.0_N=10.pdf  used on input line 1498.
+Package pdftex.def Info: Figures/spectrum_v=1.5_w=1.0_N=10.pdf  used on input line 1501.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
 <Figures/spectrum_v=0.2_w=1.0_N=20.pdf, id=422, 542.74767pt x 325.9377pt>
 File: Figures/spectrum_v=0.2_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=0.2_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/spectrum_v=0.2_w=1.0_N=20.pdf  used on input line 1510.
+Package pdftex.def Info: Figures/spectrum_v=0.2_w=1.0_N=20.pdf  used on input line 1513.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
 <Figures/spectrum_v=0.5_w=1.0_N=20.pdf, id=423, 542.74767pt x 325.9377pt>
 File: Figures/spectrum_v=0.5_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=0.5_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/spectrum_v=0.5_w=1.0_N=20.pdf  used on input line 1516.
+Package pdftex.def Info: Figures/spectrum_v=0.5_w=1.0_N=20.pdf  used on input line 1519.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
 <Figures/spectrum_v=1.0_w=1.0_N=20.pdf, id=424, 531.32419pt x 325.9377pt>
 File: Figures/spectrum_v=1.0_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=1.0_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/spectrum_v=1.0_w=1.0_N=20.pdf  used on input line 1524.
+Package pdftex.def Info: Figures/spectrum_v=1.0_w=1.0_N=20.pdf  used on input line 1527.
 (pdftex.def)             Requested size: 200.078pt x 122.73859pt.
 <Figures/spectrum_v=1.5_w=1.0_N=20.pdf, id=425, 542.74767pt x 325.9377pt>
 File: Figures/spectrum_v=1.5_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/spectrum_v=1.5_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/spectrum_v=1.5_w=1.0_N=20.pdf  used on input line 1530.
+Package pdftex.def Info: Figures/spectrum_v=1.5_w=1.0_N=20.pdf  used on input line 1533.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-
-
-[20 <./Figures/spectrum_v=0.2_w=1.0_N=10.pdf> <./Figures/spectrum_v=0.5_w=1.0_N=10.pdf> <./Figures/spectrum_v=1.0_w=1.0_N=10.pdf> <./Figures/spectrum_v=1.5_w=1.0_N=10.pdf>]
-<Figures/probability_v=0.2_w=1.0_N=10.pdf, id=490, 687.28767pt x 326.0255pt>
+ [20 <./Figures/spectrum_v=0.2_w=1.0_N=10.pdf> <./Figures/spectrum_v=0.5_w=1.0_N=10.pdf> <./Figures/spectrum_v=1.0_w=1.0_N=10.pdf> <./Figures/spectrum_v=1.5_w=1.0_N=10.pdf>]
+<Figures/probability_v=0.2_w=1.0_N=10.pdf, id=491, 687.28767pt x 326.0255pt>
 File: Figures/probability_v=0.2_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/probability_v=0.2_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/probability_v=0.2_w=1.0_N=10.pdf  used on input line 1559.
+Package pdftex.def Info: Figures/probability_v=0.2_w=1.0_N=10.pdf  used on input line 1564.
 (pdftex.def)             Requested size: 200.078pt x 94.90813pt.
-<Figures/probability_v=0.5_w=1.0_N=10.pdf, id=491, 687.28767pt x 325.9377pt>
+<Figures/probability_v=0.5_w=1.0_N=10.pdf, id=492, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=0.5_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/probability_v=0.5_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/probability_v=0.5_w=1.0_N=10.pdf  used on input line 1565.
+Package pdftex.def Info: Figures/probability_v=0.5_w=1.0_N=10.pdf  used on input line 1570.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-<Figures/probability_v=1.0_w=1.0_N=10.pdf, id=492, 687.28767pt x 325.9377pt>
+<Figures/probability_v=1.0_w=1.0_N=10.pdf, id=493, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=1.0_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/probability_v=1.0_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/probability_v=1.0_w=1.0_N=10.pdf  used on input line 1573.
+Package pdftex.def Info: Figures/probability_v=1.0_w=1.0_N=10.pdf  used on input line 1578.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-<Figures/probability_v=1.5_w=1.0_N=10.pdf, id=493, 687.28767pt x 325.9377pt>
+<Figures/probability_v=1.5_w=1.0_N=10.pdf, id=494, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=1.5_w=1.0_N=10.pdf Graphic file (type pdf)
 <use Figures/probability_v=1.5_w=1.0_N=10.pdf>
-Package pdftex.def Info: Figures/probability_v=1.5_w=1.0_N=10.pdf  used on input line 1579.
+Package pdftex.def Info: Figures/probability_v=1.5_w=1.0_N=10.pdf  used on input line 1584.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-<Figures/probability_v=0.2_w=1.0_N=20.pdf, id=494, 687.28767pt x 325.9377pt>
+<Figures/probability_v=0.2_w=1.0_N=20.pdf, id=495, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=0.2_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/probability_v=0.2_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/probability_v=0.2_w=1.0_N=20.pdf  used on input line 1590.
+Package pdftex.def Info: Figures/probability_v=0.2_w=1.0_N=20.pdf  used on input line 1593.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-<Figures/probability_v=0.5_w=1.0_N=20.pdf, id=495, 687.28767pt x 325.9377pt>
+<Figures/probability_v=0.5_w=1.0_N=20.pdf, id=496, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=0.5_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/probability_v=0.5_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/probability_v=0.5_w=1.0_N=20.pdf  used on input line 1596.
+Package pdftex.def Info: Figures/probability_v=0.5_w=1.0_N=20.pdf  used on input line 1599.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-<Figures/probability_v=1.0_w=1.0_N=20.pdf, id=496, 687.28767pt x 325.9377pt>
+<Figures/probability_v=1.0_w=1.0_N=20.pdf, id=497, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=1.0_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/probability_v=1.0_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/probability_v=1.0_w=1.0_N=20.pdf  used on input line 1604.
+Package pdftex.def Info: Figures/probability_v=1.0_w=1.0_N=20.pdf  used on input line 1607.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-<Figures/probability_v=1.5_w=1.0_N=20.pdf, id=497, 687.28767pt x 325.9377pt>
+<Figures/probability_v=1.5_w=1.0_N=20.pdf, id=498, 687.28767pt x 325.9377pt>
 File: Figures/probability_v=1.5_w=1.0_N=20.pdf Graphic file (type pdf)
 <use Figures/probability_v=1.5_w=1.0_N=20.pdf>
-Package pdftex.def Info: Figures/probability_v=1.5_w=1.0_N=20.pdf  used on input line 1610.
+Package pdftex.def Info: Figures/probability_v=1.5_w=1.0_N=20.pdf  used on input line 1613.
 (pdftex.def)             Requested size: 200.078pt x 94.88255pt.
-
-
-[21 <./Figures/spectrum_v=0.2_w=1.0_N=20.pdf> <./Figures/spectrum_v=0.5_w=1.0_N=20.pdf> <./Figures/spectrum_v=1.0_w=1.0_N=20.pdf> <./Figures/spectrum_v=1.5_w=1.0_N=20.pdf>]
-
-[22 <./Figures/probability_v=0.2_w=1.0_N=10.pdf> <./Figures/probability_v=0.5_w=1.0_N=10.pdf> <./Figures/probability_v=1.0_w=1.0_N=10.pdf> <./Figures/probability_v=1.5_w=1.0_N=10.pdf> <./Figures/probability_v=0.2_w=1.0_N=20.pdf> <./Figures/probability_v=0.5_w=1.0_N=20.pdf> <./Figures/probability_v=1.0_w=1.0_N=20.pdf> <./Figures/probability_v=1.5_w=1.0_N=20.pdf>]
-
-[23]
-
-[24]
-
-[25]
-
-[26]
-
-[27]
-<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf, id=700, 542.74767pt x 325.9377pt>
+ [21 <./Figures/spectrum_v=0.2_w=1.0_N=20.pdf> <./Figures/spectrum_v=0.5_w=1.0_N=20.pdf> <./Figures/spectrum_v=1.0_w=1.0_N=20.pdf> <./Figures/spectrum_v=1.5_w=1.0_N=20.pdf>] [22 <./Figures/probability_v=0.2_w=1.0_N=10.pdf> <./Figures/probability_v=0.5_w=1.0_N=10.pdf> <./Figures/probability_v=1.0_w=1.0_N=10.pdf> <./Figures/probability_v=1.5_w=1.0_N=10.pdf> <./Figures/probability_v=0.2_w=1.0_N=20.pdf> <./Figures/probability_v=0.5_w=1.0_N=20.pdf> <./Figures/probability_v=1.0_w=1.0_N=20.pdf> <./Figures/probability_v=1.5_w=1.0_N=20.pdf>] [23] [24] [25] [26] [27]
+<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf, id=702, 542.74767pt x 325.9377pt>
 File: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf>
-Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf  used on input line 2268.
+Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf  used on input line 2272.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf, id=701, 542.74767pt x 325.9377pt>
+<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf, id=703, 542.74767pt x 325.9377pt>
 File: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf>
-Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf  used on input line 2275.
+Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf  used on input line 2279.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf, id=702, 542.74767pt x 325.9377pt>
+<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf, id=704, 542.74767pt x 325.9377pt>
 File: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf>
-Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf  used on input line 2285.
+Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf  used on input line 2289.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf, id=703, 542.74767pt x 325.9377pt>
+<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf, id=705, 542.74767pt x 325.9377pt>
 File: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf>
-Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf  used on input line 2292.
+Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf  used on input line 2296.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf, id=704, 542.74767pt x 325.9377pt>
+<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf, id=706, 542.74767pt x 325.9377pt>
 File: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf>
-Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf  used on input line 2302.
+Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf  used on input line 2306.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf, id=705, 542.74767pt x 325.9377pt>
+<Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf, id=707, 542.74767pt x 325.9377pt>
 File: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf>
-Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf  used on input line 2309.
+Package pdftex.def Info: Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf  used on input line 2313.
 (pdftex.def)             Requested size: 200.078pt x 120.15242pt.
-
-
-[28]
-
-[29 <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf>]
-<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf, id=802, 976.36768pt x 325.9377pt>
+ [28] [29 <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=10.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=-0.1_N=20.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=10.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.0_N=20.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=10.pdf> <./Figures/onsite_potential/spectrum_v=0.2_w=1.0_u=0.1_N=20.pdf>]
+<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf, id=804, 976.36768pt x 325.9377pt>
 File: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf>
-Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf  used on input line 2364.
+Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf  used on input line 2368.
 (pdftex.def)             Requested size: 395.98996pt x 132.19302pt.
-<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf, id=803, 976.36768pt x 325.9377pt>
+<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf, id=805, 470.4777pt x 325.9377pt>
 File: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf>
-Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf  used on input line 2373.
-(pdftex.def)             Requested size: 395.98996pt x 132.19302pt.
-<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf, id=804, 976.36768pt x 325.9377pt>
+Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf  used on input line 2377.
+(pdftex.def)             Requested size: 205.35968pt x 142.26378pt.
+<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf, id=806, 976.36768pt x 325.9377pt>
 File: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf>
-Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf  used on input line 2382.
+Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf  used on input line 2386.
 (pdftex.def)             Requested size: 395.98996pt x 132.19302pt.
-<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf, id=805, 976.36768pt x 325.9377pt>
+<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf, id=807, 976.36768pt x 325.9377pt>
 File: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf>
-Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf  used on input line 2395.
+Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf  used on input line 2399.
 (pdftex.def)             Requested size: 395.98996pt x 132.19302pt.
-<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf, id=806, 976.36768pt x 325.9377pt>
+<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf, id=808, 470.4777pt x 325.9377pt>
 File: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf>
-Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf  used on input line 2404.
-(pdftex.def)             Requested size: 395.98996pt x 132.19302pt.
-<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf, id=807, 976.36768pt x 325.9377pt>
+Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf  used on input line 2408.
+(pdftex.def)             Requested size: 205.35968pt x 142.26378pt.
+<Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf, id=809, 976.36768pt x 325.9377pt>
 File: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf>
-Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf  used on input line 2413.
+Package pdftex.def Info: Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf  used on input line 2417.
 (pdftex.def)             Requested size: 395.98996pt x 132.19302pt.
-
-
-[30]
-
-[31 <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf>]
-
-[32 <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf>]
-<Figures/onsite_potential/onsite_dvector_3D.pdf, id=905, 1242.54007pt x 400.89775pt>
+ [30] [31 <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=10.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=10.pdf>] [32 <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=-0.1_N=20.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf> <./Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.1_N=20.pdf>]
+<Figures/onsite_potential/onsite_dvector_3D.pdf, id=907, 1242.54007pt x 400.89775pt>
 File: Figures/onsite_potential/onsite_dvector_3D.pdf Graphic file (type pdf)
 <use Figures/onsite_potential/onsite_dvector_3D.pdf>
-Package pdftex.def Info: Figures/onsite_potential/onsite_dvector_3D.pdf  used on input line 2524.
+Package pdftex.def Info: Figures/onsite_potential/onsite_dvector_3D.pdf  used on input line 2528.
 (pdftex.def)             Requested size: 416.83289pt x 134.48662pt.
+ [33] [34 <./Figures/onsite_potential/onsite_dvector_3D.pdf>] [35
 
+] [36
 
-[33]
-
-[34 <./Figures/onsite_potential/onsite_dvector_3D.pdf>]
-
-[35
+] [37
 
 ]
-
-[36
-
-]
-
-[37
-
-]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 2634.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 2638.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2634.
+(Font)              scaled to size 10.0pt on input line 2638.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2635.
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2635.
+(Font)              scaled to size 6.0pt on input line 2639.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2639.
  (C:\Users\vedan\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 2635.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 2639.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `txtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/it' in size <10> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 2638.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 2642.
+ [38
 
-
-[38
-
-]
-
-[39]
-
-[40]
-
-[41]
-
-[42]
-
-[43]
-
-[44]
-
-[45]
-
-[46] (c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.aux)
+] [39] [40] [41] [42] [43] [44] [45] [46] (c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
+LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FEF24E219CBF5C24735131EFFD1F8C77;7803.
+(rerunfilecheck)             Checksum: 176542F50E47E7A91FAAD82A74705A74;7803.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31120 strings out of 468149
- 544505 string characters out of 5431082
- 1652976 words of memory out of 5000000
- 58615 multiletter control sequences out of 15000+600000
- 754183 words of font info for 288 fonts, out of 8000000 for 9000
+ 31116 strings out of 467866
+ 544344 string characters out of 5418326
+ 1658023 words of memory out of 5000000
+ 58886 multiletter control sequences out of 15000+600000
+ 756503 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,15n,120p,1169b,2385s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,15n,120p,1161b,2390s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/vedan/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on "c:\Users\vedan\OneDrive\Desktop\Vijay Vedanth Vemula\Summer 26\Internship-Summer_26\Report\build\main.pdf" (48 pages, 831545 bytes).
+Output written on "c:\Users\vedan\Desktop\Things\IISER Tirupati\Summer 26\Internship-Summer_26\Report\build\main.pdf" (48 pages, 1154893 bytes).
 PDF statistics:
- 1556 PDF objects out of 1728 (max. 8388607)
- 511 named destinations out of 1000 (max. 500000)
+ 1557 PDF objects out of 1728 (max. 8388607)
+ 510 named destinations out of 1000 (max. 500000)
  49604 words of extra memory for PDF output out of 51595 (max. 10000000)
 

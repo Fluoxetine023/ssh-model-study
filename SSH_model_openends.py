@@ -3,7 +3,7 @@ import numpy as np
 import scipy.linalg as la
 from pathlib import Path
 
-OUTPUT_DIR = Path("figures")
+OUTPUT_DIR = Path("Report/Figures")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Plotting parameters
@@ -83,7 +83,7 @@ def plot_probability_distribution(
         width,
         label="Sublattice A",
         color="#1f77b4",
-        edgecolor="black",
+        linewidth=0,
         alpha=0.8,
     )
     ax.bar(
@@ -92,7 +92,7 @@ def plot_probability_distribution(
         width,
         label="Sublattice B",
         color="#ff7f0e",
-        edgecolor="black",
+        linewidth=0,
         alpha=0.8,
     )
 
@@ -105,7 +105,6 @@ def plot_probability_distribution(
     ax.set_axisbelow(True)
     ax.grid(axis="y", linestyle="--", alpha=0.7)
 
-    ax.legend(frameon=True, facecolor="white", edgecolor="none")
     filename = OUTPUT_DIR / f"probability_v={v}_w={w}_N={n_cells}.pdf"
 
     plt.tight_layout()
@@ -116,38 +115,46 @@ def plot_probability_distribution(
     print(f"Saved: {filename}")
 
 def plot_eigenvalue_spectrum(eigvals: np.ndarray, v: float, w: float) -> None:
-    """Plots the complete eigenvalue energy spectrum of the SSH system."""
     fig, ax = plt.subplots(figsize=(8, 5), dpi=100)
 
     indices = np.arange(len(eigvals))
 
-    # Plot all eigenvalues as sorted states
+    # Plot all eigenvalues
     ax.scatter(
         indices,
         eigvals,
         color="#2ca02c",
         edgecolor="black",
         s=45,
-        zorder=3,
-        label="Eigenvalues",
     )
+    # Highlight edge states only in the topological phase
+    if w > v:
+        positive_idx = np.where(eigvals > 1e-36)[0][0]
+        negative_idx = np.where(eigvals < -1e-36)[0][-1]
 
-    # Reference line at zero-energy
-    ax.axhline(0, color="gray", linestyle="--", linewidth=1.2, alpha=0.6)
+        ax.scatter(
+            [negative_idx, positive_idx],
+            [eigvals[negative_idx], eigvals[positive_idx]],
+            color="red",
+            edgecolor="black",
+            s=90,
+            label="Edge states",
+            zorder=5,
+        )
+    ax.axhline(0, color="gray", linestyle="--", linewidth=1.2)
 
-    # Labels and Styling
     ax.set_xlabel("State Index")
-    ax.set_ylabel("Energy $E$")
-    n_cells = len(eigvals)//2
+    ax.set_ylabel(r"Energy $E$")
     ax.grid(True, linestyle="--", alpha=0.5)
-    ax.legend(frameon=True, facecolor="white", edgecolor="none")
+
+    n_cells = len(eigvals) // 2
     filename = OUTPUT_DIR / f"spectrum_v={v}_w={w}_N={n_cells}.pdf"
 
     plt.tight_layout()
     plt.savefig(filename, dpi=300, bbox_inches="tight")
-    #plt.show()
+    plt.show()
     plt.close()
-
+    
     print(f"Saved: {filename}")
 
 

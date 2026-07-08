@@ -3,7 +3,7 @@ import numpy as np
 import scipy.linalg as la
 from pathlib import Path
 
-OUTPUT_DIR = Path("figures") / "onsite_potential"
+OUTPUT_DIR = Path("Report/Figures") / "onsite_potential"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Plotting parameters
@@ -90,74 +90,96 @@ def plot_probability_distribution(
     w: float,
     u: float,
 ) -> None:
-    """Plots the positive- and negative-energy edge-state probability distributions."""
+    """
+    Plot the probability density of the edge states.
+
+    For u = 0, only one edge state is shown since the two zero-energy
+    edge states are degenerate and have identical probability
+    distributions (up to localization choice).
+    """
 
     n_cells = len(prob_A_pos)
     cells = np.arange(n_cells)
     width = 0.4
 
-    fig, axes = plt.subplots(
-        1, 2,
-        figsize=(14, 5),
-        dpi=100,
-        sharey=True
-    )
+    if np.isclose(u, 0.0):
+        # Only one plot
+        fig, ax = plt.subplots(
+            figsize=(7, 5),
+            dpi=100,
+        )
 
-    # ---------------- Positive-energy edge state ----------------
-    ax = axes[0]
+        ax.bar(
+            cells - width / 2,
+            prob_A_pos,
+            width,
+            color="#1f77b4",
+            linewidth=0,
+            label="A",
+        )
 
-    ax.bar(
-        cells - width/2,
-        prob_A_pos,
-        width,
-        label="Sublattice A",
-        color="#1f77b4",
-        edgecolor="black",
-    )
+        ax.bar(
+            cells + width / 2,
+            prob_B_pos,
+            width,
+            color="#ff7f0e",
+            linewidth=0,
+            label="B",
+        )
 
-    ax.bar(
-        cells + width/2,
-        prob_B_pos,
-        width,
-        label="Sublattice B",
-        color="#ff7f0e",
-        edgecolor="black",
-    )
+        ax.set_title("Edge State")
+        ax.set_xlabel("Unit Cell Index")
+        ax.set_ylabel(r"Probability Density $|\psi|^2$")
+        ax.set_xticks(cells)
 
-    ax.set_title("Positive Edge State")
-    ax.set_xlabel("Unit Cell Index")
-    ax.set_ylabel(r"Probability Density $|\psi|^2$")
-    ax.set_xticks(cells)
-    ax.grid(axis="y", linestyle="--", alpha=0.6)
-    ax.legend(frameon=True)
+        ax.set_axisbelow(True)
+        ax.grid(axis="y", linestyle="--", alpha=0.6)
 
-    # ---------------- Negative-energy edge state ----------------
-    ax = axes[1]
 
-    ax.bar(
-        cells - width/2,
-        prob_A_neg,
-        width,
-        label="Sublattice A",
-        color="#1f77b4",
-        edgecolor="black",
-    )
+    else:
+        # Positive and negative edge states
+        fig, axes = plt.subplots(
+            1,
+            2,
+            figsize=(14, 5),
+            dpi=100,
+            sharey=True,
+        )
 
-    ax.bar(
-        cells + width/2,
-        prob_B_neg,
-        width,
-        label="Sublattice B",
-        color="#ff7f0e",
-        edgecolor="black",
-    )
+        datasets = [
+            (prob_A_pos, prob_B_pos, "Positive Edge State"),
+            (prob_A_neg, prob_B_neg, "Negative Edge State"),
+        ]
 
-    ax.set_title("Negative Edge State")
-    ax.set_xlabel("Unit Cell Index")
-    ax.set_xticks(cells)
-    ax.grid(axis="y", linestyle="--", alpha=0.6)
-    ax.legend(frameon=True)
+        for ax, (prob_A, prob_B, title) in zip(axes, datasets):
 
+            ax.bar(
+                cells - width / 2,
+                prob_A,
+                width,
+                color="#1f77b4",
+                linewidth=0,
+                label="A",
+            )
+
+            ax.bar(
+                cells + width / 2,
+                prob_B,
+                width,
+                color="#ff7f0e",
+                linewidth=0,
+                label="B",
+            )
+
+            ax.set_title(title)
+            ax.set_xlabel("Unit Cell Index")
+            ax.set_xticks(cells)
+
+            ax.set_axisbelow(True)
+            ax.grid(axis="y", linestyle="--", alpha=0.6)
+
+
+        axes[0].set_ylabel(r"Probability Density $|\psi|^2$")
 
     plt.tight_layout()
 
@@ -166,8 +188,7 @@ def plot_probability_distribution(
     )
 
     plt.savefig(filename, dpi=300, bbox_inches="tight")
-
-    plt.show()
+    #plt.show()
     plt.close()
 
     print(f"Saved: {filename}")
@@ -218,12 +239,11 @@ def plot_eigenvalue_spectrum(eigvals: np.ndarray, v: float, w: float, u: float) 
     ax.set_ylabel("Energy $E$")
     n_cells = len(eigvals)//2
     ax.grid(True, linestyle="--", alpha=0.5)
-    ax.legend(frameon=True, facecolor="white", edgecolor="none")
     filename = OUTPUT_DIR / f"spectrum_v={v}_w={w}_u={u}_N={n_cells}.pdf"
 
     plt.tight_layout()
     plt.savefig(filename, dpi=300, bbox_inches="tight")
-    plt.show()
+    #plt.show()
     plt.close()
 
     print(f"Saved: {filename}")

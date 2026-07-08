@@ -53,12 +53,15 @@
 
 \section{Introduction}
 The Su--Schrieffer--Heeger (SSH) model is a one-dimensional tight-binding model that serves as one of the simplest theoretical frameworks for studying topological phases of matter.
-Originally introduced to describe the electronic properties of polyacetylene \cite{ssh1979}, the model has since become one of the canonical examples for understanding topological band theory and one-dimensional topological insulators \cite{asboth2015}.
+Originally introduced to describe the electronic properties of polyacetylene \cite{ssh1979}, the model has since become one of the canonical examples for understanding topological band theory and one-dimensional topological insulators~\cite{asboth2015}.
 Despite its simple structure, the SSH model exhibits non-trivial topological behaviour and provides an accessible platform for understanding concepts such as energy bands, topological phase transitions, and edge states, which are central topics in the study of topological insulators \cite{hasan2010,qi2011}.
-These notes present the derivation of the SSH model starting from its real-space tight-binding Hamiltonian.
+This report presents the derivation and numerical investigation of the SSH model starting from its real-space tight-binding Hamiltonian.
 The Hamiltonian is expressed in matrix form for a finite lattice and subsequently reformulated using the tensor-product representation of the unit-cell and sublattice degrees of freedom.
 By imposing periodic boundary conditions and applying Bloch's theorem, the bulk momentum-space Hamiltonian is obtained, from which the energy dispersion relation is derived.
-Finally, the Hamiltonian is expressed in terms of Pauli matrices, leading to the vector representation that forms the basis for describing the topological properties of the model.~\cite{asboth2015}
+Finally, the Hamiltonian is expressed in terms of Pauli matrices, leading to the vector representation that forms the basis for describing the topological properties of the model~\cite{asboth2015}.
+
+
+In this internship, the SSH model is studied from both analytical and numerical perspectives. First, the bulk momentum-space Hamiltonian, energy dispersion, chiral symmetry, winding number, and bulk-boundary correspondence are derived from the real-space tight-binding Hamiltonian. Numerical diagonalization of finite SSH chains is then performed to investigate the energy spectrum and edge-state localization. Finally, the SSH model is extended by introducing a staggered on-site potential, and its effects on the energy spectrum, eigenstates, chiral symmetry, and topological properties are examined.
 
 \section{The Su--Schrieffer--Heeger Model}
 \label{sec:ssh_model}
@@ -68,7 +71,7 @@ Finally, the Hamiltonian is expressed in terms of Pauli matrices, leading to the
     \caption{Geometry of the Su--Schrieffer--Heeger (SSH) model.
 Each unit cell consists of two sublattice sites, A (grey) and B (white), with alternating intracell ($v$) and intercell ($w$) hopping amplitudes.
 Reproduced from Asbóth \textit{et al}~\cite{asboth2015}.}
-    \label{fig:ssh_chain}
+\label{fig:ssh_chain}
 \end{figure}
 
 \subsection{Real-Space Tight-Binding Hamiltonian}
@@ -1499,7 +1502,7 @@ Increasing the system size from \(N=10\) to \(N=20\) reduces the small energy sp
         \caption{$v=1.5, w=1.0$}
         \label{fig:spec10_d}
     \end{subfigure}
-    \caption{Energy spectra of the finite SSH chain containing $N=10$ unit cells. Two near-zero-energy states are observed in the topological phase ($v<w$), while they disappear in the trivial phase ($v>w$).}
+    \caption{Energy spectrum of a finite SSH chain with $N=10$ unit cells for (a) $v=0.2,\; w=1.0$, (b) $v=0.5,\; w=1.0$, (c) $v=1.0,\; w=1.0$, and (d) $v=1.5,\; w=1.0$. Green markers denote bulk eigenstates, while red markers indicate the two edge states. In the topological phase ($v<w$), the edge states appear within the bulk band gap and are nearly degenerate at zero energy. As the system approaches the phase transition ($v=w$), the band gap closes, whereas in the trivial phase ($v>w$), the mid-gap edge states disappear.}
     \label{fig:spectrum10}
 \end{figure}
 
@@ -1530,7 +1533,7 @@ Increasing the system size from \(N=10\) to \(N=20\) reduces the small energy sp
         \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/spectrum_v=1.5_w=1.0_N=20.pdf}
         \caption{$v=1.5, w=1.0$}
     \end{subfigure}
-    \caption{Energy spectra of the finite SSH chain containing \(N=20\) unit cells. Increasing the system size decreases the energy splitting between the edge states due to their exponentially weaker overlap.}
+    \caption{Energy spectrum of a finite SSH chain with $N=20$ unit cells for (a) $v=0.2,\; w=1.0$, (b) $v=0.5,\; w=1.0$, (c) $v=1.0,\; w=1.0$, and (d) $v=1.5,\; w=1.0$. Green markers denote bulk eigenstates, while red markers indicate the two edge states. Increasing the chain length suppresses the overlap between edge states localized at opposite boundaries, resulting in a smaller energy splitting and bringing the edge-state energies closer to zero. The bulk spectrum remains essentially unchanged.}
     \label{fig:spectrum20}
 \end{figure}
 \FloatBarrier
@@ -1547,73 +1550,74 @@ P_B(m)=|\psi_B(m)|^2,
 
 where \(m\) labels the unit cell.
 
-The resulting probability distributions are shown in \cref{fig:prob10} and \cref{fig:prob20}. In the topological phase (\(v<w\)), the probability density is strongly localized near the boundaries of the chain, confirming the existence of topological edge states. As the system approaches the critical point (\(v=w\)), the localization length increases and the edge states extend further into the bulk. In contrast, for the trivial phase (\(v>w\)), the probability density is distributed throughout the lattice, indicating the absence of localized edge modes.
+The resulting probability distributions are shown in \cref{fig:probability_n=10_20}. In the topological phase (\(v<w\)), the probability density is strongly localized near the boundaries of the chain, confirming the existence of topological edge states. As the system approaches the critical point (\(v=w\)), the localization length increases and the edge states extend further into the bulk. In contrast, for the trivial phase (\(v>w\)), the probability density is distributed throughout the lattice, indicating the absence of localized edge modes.
 
 A comparison between \(N=10\) and \(N=20\) further shows that increasing the system size enhances the localization of the edge states by reducing their overlap, consistent with the behaviour observed in the energy spectra.
 
 
-\begin{figure}[!htbp]
+\begin{figure}[htbp]
     \centering
+
+    %---------------- N = 10 ----------------%
     \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=0.2_w=1.0_N=10.pdf}
-        \caption{$v=0.2, w=1.0$}
+        \includegraphics[width=\textwidth]{Figures/probability_v=0.2_w=1.0_N=10.pdf}
+        \caption{$N=10,\; v=0.2,\; w=1.0$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=0.5_w=1.0_N=10.pdf}
-        \caption{$v=0.5, w=1.0$}
+        \includegraphics[width=\textwidth]{Figures/probability_v=0.5_w=1.0_N=10.pdf}
+        \caption{$N=10,\; v=0.5,\; w=1.0$}
     \end{subfigure}
-    
-    \vspace{0.4cm}
-    
+
+    \vspace{0.3cm}
+
     \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=1.0_w=1.0_N=10.pdf}
-        \caption{$v=1.0, w=1.0$}
+        \includegraphics[width=\textwidth]{Figures/probability_v=1.0_w=1.0_N=10.pdf}
+        \caption{$N=10,\; v=1.0,\; w=1.0$}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=1.5_w=1.0_N=10.pdf}
-        \caption{$v=1.5, w=1.0$}
+        \includegraphics[width=\textwidth]{Figures/probability_v=1.5_w=1.0_N=10.pdf}
+        \caption{$N=10,\; v=1.5,\; w=1.0$}
     \end{subfigure}
-    \caption{Probability distribution of the eigenstate corresponding to the lowest positive-energy eigenvalue for a finite SSH chain containing \(N=10\) unit cells. Edge localization is observed in the topological phase (\(v<w\)).}
-    \label{fig:prob10}
+
+    \vspace{0.6cm}
+
+    %---------------- N = 20 ----------------%
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/probability_v=0.2_w=1.0_N=20.pdf}
+        \caption{$N=20,\; v=0.2,\; w=1.0$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/probability_v=0.5_w=1.0_N=20.pdf}
+        \caption{$N=20,\; v=0.5,\; w=1.0$}
+    \end{subfigure}
+
+    \vspace{0.3cm}
+
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/probability_v=1.0_w=1.0_N=20.pdf}
+        \caption{$N=20,\; v=1.0,\; w=1.0$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/probability_v=1.5_w=1.0_N=20.pdf}
+        \caption{$N=20,\; v=1.5,\; w=1.0$}
+    \end{subfigure}
+
+    \caption{Probability density $|\psi|^2$ of the eigenstate corresponding to the lowest positive-energy eigenvalue for finite SSH chains containing $N=10$ (a--d) and $N=20$ (e--h) unit cells. The hopping parameters are $v=0.2$, $0.5$, $1.0$, and $1.5$, with $w=1.0$. Blue and orange bars represent the probability densities on the A and B sublattices, respectively. In the topological phase ($v<w$), the eigenstate is strongly localized near the boundaries of the chain. As the system approaches the critical point ($v=w$), the localization length increases and the state extends into the bulk, while in the trivial phase ($v>w$), the probability density becomes delocalized. Increasing the chain length from $N=10$ to $N=20$ enhances the localization of the edge states by reducing the overlap between states localized at opposite boundaries.}
+    \label{fig:probability_n=10_20}
 \end{figure}
 
-\begin{figure}[!htbp]
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=0.2_w=1.0_N=20.pdf}
-        \caption{$v=0.2, w=1.0$}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=0.5_w=1.0_N=20.pdf}
-        \caption{$v=0.5, w=1.0$}
-    \end{subfigure}
-    
-    \vspace{0.4cm}
-    
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=1.0_w=1.0_N=20.pdf}
-        \caption{$v=1.0, w=1.0$}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, max height=0.4\textheight, keepaspectratio]{Figures/probability_v=1.5_w=1.0_N=20.pdf}
-        \caption{$v=1.5, w=1.0$}
-    \end{subfigure}
-    \caption{Probability distribution of the eigenstate corresponding to the lowest positive-energy eigenvalue for \(N=20\). The increased chain length leads to more strongly localized edge states and reduced overlap between opposite boundaries.}
-    \label{fig:prob20}
-\end{figure}
-\FloatBarrier
 
 \subsubsection{Preservation of Chiral Symmetry}
 
@@ -2370,7 +2374,7 @@ edge states are shown in \cref{fig:onsite_eigenstates_N10,fig:onsite_eigenstates
 
     \begin{subfigure}[b]{0.95\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf}
+        \includegraphics[height=5cm]{Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=10.pdf}
         \caption{$u=0$}
         \label{fig:edge10_b}
     \end{subfigure}
@@ -2384,7 +2388,7 @@ edge states are shown in \cref{fig:onsite_eigenstates_N10,fig:onsite_eigenstates
         \label{fig:edge10_c}
     \end{subfigure}
 
-    \caption{Probability density of the positive- and negative-energy edge states of the finite SSH chain containing $N=10$ unit cells for $v=0.2$ and $w=1.0$. The three panels correspond to $u=-0.1$, $u=0$, and $u=0.1$, respectively.}
+    \caption{Probability density $\left|\psi\right|^2$ of the positive- and negative-energy edge states of the finite SSH chain containing $N=10$ unit cells for $v=0.2$ and $w=1.0$. The three rows correspond to staggered on-site potentials $u=-0.1$, $u=0$, and $u=0.1$, respectively. Blue and orange bars denote the probability densities on the A and B sublattices, respectively. Reversing the sign of $u$ exchanges the sublattice localization of the positive- and negative-energy edge states while preserving their spatial localization at the opposite ends of the chain.}
     \label{fig:onsite_eigenstates_N10}
 \end{figure}
 \begin{figure}[htbp]
@@ -2401,7 +2405,7 @@ edge states are shown in \cref{fig:onsite_eigenstates_N10,fig:onsite_eigenstates
 
     \begin{subfigure}[b]{0.95\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf}
+        \includegraphics[height=5cm]{Figures/onsite_potential/edge_states_v=0.2_w=1.0_u=0.0_N=20.pdf}
         \caption{$u=0$}
         \label{fig:edge20_b}
     \end{subfigure}
@@ -2415,7 +2419,7 @@ edge states are shown in \cref{fig:onsite_eigenstates_N10,fig:onsite_eigenstates
         \label{fig:edge20_c}
     \end{subfigure}
 
-    \caption{Probability density of the positive- and negative-energy edge states of the finite SSH chain containing $N=20$ unit cells for $v=0.2$ and $w=1.0$. The three panels correspond to $u=-0.1$, $u=0$, and $u=0.1$, respectively.}
+    \caption{Probability density $\left|\psi\right|^2$ of the positive- and negative-energy edge states of the finite SSH chain containing $N=20$ unit cells for $v=0.2$ and $w=1.0$. The three rows correspond to staggered on-site potentials $u=-0.1$, $u=0$, and $u=0.1$, respectively. Blue and orange bars denote the probability densities on the A and B sublattices, respectively. Reversing the sign of $u$ exchanges the sublattice localization of the positive- and negative-energy edge states while preserving their spatial localization at the opposite ends of the chain.}
     \label{fig:onsite_eigenstates_N20}
 \end{figure}
 
@@ -2585,7 +2589,7 @@ In summary, this report demonstrates that the SSH model serves as an elegant, fo
 
 \clearpage
 \section*{Acknowledgements}
-
+\markboth{Acknowledgements}{Acknowledgements}
 I would like to express my sincere gratitude to Dr. Panch Ram, Department of Physics, Indian Institute of Technology (BHU) Varanasi, for giving me the opportunity to undertake this summer research internship and for his invaluable guidance throughout its course. I am deeply grateful for the many insightful and stimulating discussions, his constant encouragement, and his patience in addressing my questions. His mentorship not only helped me develop a strong understanding of the Su–Schrieffer–Heeger (SSH) model and its topological properties but also taught me the importance of approaching physics through careful mathematical reasoning and physical intuition.
 
 I am particularly thankful for the emphasis he placed on understanding the underlying concepts rather than merely obtaining results. The freedom to explore ideas beyond the immediate scope of the project, together with his thoughtful suggestions and constructive feedback, encouraged me to ask deeper questions, develop greater mathematical rigor, and appreciate the fundamental role of symmetry and topology in modern physics. This internship has been an immensely rewarding learning experience that has strengthened my problem-solving skills, deepened my appreciation for rigorous theoretical analysis, and provided me with a strong foundation for future research.
