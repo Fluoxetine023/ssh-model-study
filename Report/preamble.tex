@@ -1,0 +1,89 @@
+% --- Typography & Geometry ---
+\usepackage[a4paper, left=1.25in, right=1.25in, top=1.4in, bottom=1.25in, headheight=15pt, headsep=20pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{microtype}
+
+\usepackage[
+    backend=biber,
+    style=phys,          
+    articletitle=false,  
+    biblabel=brackets   
+]{biblatex}
+% --- Math & Physics Packages ---
+\usepackage{amsmath}
+\usepackage{braket}
+
+% --- Graphics & Floats ---
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage[labelfont=bf, font=small, margin=12pt]{caption}
+
+% --- Code & Appendices ---
+\usepackage{appendix}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% --- Code Listing Setup ---
+\definecolor{codegreen}{rgb}{0.13,0.55,0.13}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+
+\lstset{
+    language=Python,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen}\itshape,
+    keywordstyle=\color{blue}\bfseries,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=10pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    frame=none, % Removed the harsh top/bottom rules
+    xleftmargin=15pt,
+    xrightmargin=5pt,
+    aboveskip=1.5em,
+    belowskip=1.5em
+}
+
+% --- Microtypography & Page Breaks ---
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+
+% --- Hyperlinks ---
+\usepackage[colorlinks=true,
+            linkcolor=blue!60!black,
+            citecolor=blue!60!black,
+            urlcolor=blue!60!black]{hyperref}
+
+\usepackage[capitalize,nameinlink]{cleveref}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+
+\renewcommand{\topfraction}{.85}
+\renewcommand{\bottomfraction}{.7}
+\renewcommand{\textfraction}{.15}
+\renewcommand{\floatpagefraction}{.66}
+
+% --- Headers and Footers ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear all default headers and footers
+\fancyhead[L]{\small\sffamily\leftmark} % Section name on the left
+\fancyhead[R]{\small\sffamily The Su--Schrieffer--Heeger (SSH) Model} % Short title on the right
+\fancyfoot[C]{\thepage} % Page number at the bottom center
+\renewcommand{\headrulewidth}{0.4pt} % Subtle line under header
+\setlength{\headheight}{14pt}
+\usepackage{booktabs}\addbibresource{references.bib}

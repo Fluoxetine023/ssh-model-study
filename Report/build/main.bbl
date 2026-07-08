@@ -1,0 +1,243 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ssh1979}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4c86d9d176f195a3da6852247227d6ac}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c2af9bb5b241e45f3afcb0f87b9e1540}{%
+           family={Schrieffer},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a6f8ce1bd7664e4c519292c6be5e8074}{%
+           family={Heeger},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d5f1aa3b1fbd6b1f3e9ebca45242cf9}
+      \strng{fullhash}{a3aa7a58c82d00c2378be2ab391a5726}
+      \strng{fullhashraw}{a3aa7a58c82d00c2378be2ab391a5726}
+      \strng{bibnamehash}{a3aa7a58c82d00c2378be2ab391a5726}
+      \strng{authorbibnamehash}{a3aa7a58c82d00c2378be2ab391a5726}
+      \strng{authornamehash}{7d5f1aa3b1fbd6b1f3e9ebca45242cf9}
+      \strng{authorfullhash}{a3aa7a58c82d00c2378be2ab391a5726}
+      \strng{authorfullhashraw}{a3aa7a58c82d00c2378be2ab391a5726}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{25}
+      \field{title}{Solitons in Polyacetylene}
+      \field{volume}{42}
+      \field{year}{1979}
+      \field{pages}{1698\bibrangedash 1701}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.42.1698
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/PhysRevLett.42.1698
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/PhysRevLett.42.1698
+      \endverb
+    \endentry
+    \entry{asboth2015}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=ac5bafd2d90d61084d317b9867aa9a33}{%
+           family={Asbóth},
+           familyi={A\bibinitperiod},
+           given={János\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=728d54c225cd0e95259a02a619f489a1}{%
+           family={Oroszlány},
+           familyi={O\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b01b9f85dd4802cca444cc9a5652d0a3}{%
+           family={Pályi},
+           familyi={P\bibinitperiod},
+           given={András},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{3e88db5fc9f19c78f363edadc6f1172f}
+      \strng{fullhash}{f130e8b4ae29263deae80aec1e5a8fe6}
+      \strng{fullhashraw}{f130e8b4ae29263deae80aec1e5a8fe6}
+      \strng{bibnamehash}{f130e8b4ae29263deae80aec1e5a8fe6}
+      \strng{authorbibnamehash}{f130e8b4ae29263deae80aec1e5a8fe6}
+      \strng{authornamehash}{3e88db5fc9f19c78f363edadc6f1172f}
+      \strng{authorfullhash}{f130e8b4ae29263deae80aec1e5a8fe6}
+      \strng{authorfullhashraw}{f130e8b4ae29263deae80aec1e5a8fe6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.mes-hall}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{978-3-319-25605-4}
+      \field{title}{A Short Course on Topological Insulators: Band-structure Topology and Edge States in One and Two Dimensions}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1007/978-3-319-25607-8
+      \endverb
+      \verb{eprint}
+      \verb 1509.02295
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-25607-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-25607-8
+      \endverb
+    \endentry
+    \entry{hasan2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8859bc2aac3b15c3c789ffcbdf72da44}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi Zahid},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=5912f6c0c061b05d538437c0520f1433}{%
+           family={Kane},
+           familyi={K\bibinitperiod},
+           given={Charles\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{fullhash}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{fullhashraw}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{bibnamehash}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{authorbibnamehash}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{authornamehash}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{authorfullhash}{82213fa1f0e3d88928355ff5841cda3a}
+      \strng{authorfullhashraw}{82213fa1f0e3d88928355ff5841cda3a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{number}{4}
+      \field{title}{Colloquium: Topological Insulators}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{3045\bibrangedash 3067}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.82.3045
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/RevModPhys.82.3045
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/RevModPhys.82.3045
+      \endverb
+    \endentry
+    \entry{qi2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7590f816b469f3b799af95bbe5747030}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Xiao-Liang},
+           giveni={X\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=d2849f809d69cc70fbb11eccca48e6e9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shou-Cheng},
+           giveni={S\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{fullhash}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{fullhashraw}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{bibnamehash}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{authorbibnamehash}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{authornamehash}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{authorfullhash}{e4d372200a942b7c0668e62c5ac4ee47}
+      \strng{authorfullhashraw}{e4d372200a942b7c0668e62c5ac4ee47}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{number}{4}
+      \field{title}{Topological Insulators and Superconductors}
+      \field{volume}{83}
+      \field{year}{2011}
+      \field{pages}{1057\bibrangedash 1110}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.83.1057
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103/RevModPhys.83.1057
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/RevModPhys.83.1057
+      \endverb
+    \endentry
+    \entry{ashcroft1976}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a2b8f29a9323ac2977edd5b5e7888a84}{%
+           family={Ashcroft},
+           familyi={A\bibinitperiod},
+           given={Neil\bibnamedelima W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=711617251066ebdd9d8e58c101e03ed3}{%
+           family={Mermin},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi David},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{2}{%
+        {Holt, Rinehart}%
+        {Winston}%
+      }
+      \strng{namehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{fullhash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{fullhashraw}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{bibnamehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authorbibnamehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authornamehash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authorfullhash}{f60683403a92a32e002be743cb4a5e4b}
+      \strng{authorfullhashraw}{f60683403a92a32e002be743cb4a5e4b}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0030839931}
+      \field{title}{Solid State Physics}
+      \field{year}{1976}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,47 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Su--Schrieffer--Heeger Model}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Real-Space Tight-Binding Hamiltonian}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Matrix Representation of the Hamiltonian}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Tensor Product Representation}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Bulk Hamiltonian}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Momentum-Space Hamiltonian}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Dispersion Relation}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Vector representation of the Hamiltonian}{7}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Chiral Symmetry}{8}{subsection.2.8}%
+\contentsline {paragraph}{Definition:}{8}{section*.4}%
+\contentsline {paragraph}{Conditions:}{9}{section*.5}%
+\contentsline {subsubsection}{\numberline {2.8.1}Why Chiral Symmetry Implies an Off-Diagonal Hamiltonian}{11}{subsubsection.2.8.1}%
+\contentsline {paragraph}{Spectral properties of the chiral operator}{11}{section*.6}%
+\contentsline {paragraph}{What does the diagonal matrix D look like?}{11}{section*.7}%
+\contentsline {paragraph}{Physical Interpretation}{13}{section*.8}%
+\contentsline {paragraph}{Remark}{14}{section*.9}%
+\contentsline {subsubsection}{\numberline {2.8.2}Consequences of Chiral Symmetry}{14}{subsubsection.2.8.2}%
+\contentsline {paragraph}{Sublattice Symmetry}{14}{section*.10}%
+\contentsline {paragraph}{Symmetric Energy Spectrum}{15}{section*.11}%
+\contentsline {paragraph}{Equal Support on Both Sublattices}{15}{section*.12}%
+\contentsline {paragraph}{Zero-Energy Eigenstates}{16}{section*.13}%
+\contentsline {subsection}{\numberline {2.9}Winding Number}{16}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Bulk--Boundary Correspondence}{18}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Finite SSH Chain with Open Boundary Conditions}{18}{subsection.2.11}%
+\contentsline {subsubsection}{\numberline {2.11.1}Numerical Diagonalization}{19}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}Energy Spectrum}{20}{subsubsection.2.11.2}%
+\contentsline {subsubsection}{\numberline {2.11.3}Edge-State Probability Distribution}{21}{subsubsection.2.11.3}%
+\contentsline {subsubsection}{\numberline {2.11.4}Preservation of Chiral Symmetry}{23}{subsubsection.2.11.4}%
+\contentsline {section}{\numberline {3}Extension of the SSH Model: Inclusion of an On-Site Potential}{23}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Real-space Hamiltonian}{23}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Momentum-Space Hamiltonian}{24}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Representation in Terms of Pauli Matrices}{25}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Effect on Chiral Symmetry}{25}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Loss of the Winding Number}{27}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Energy Eigenvalues}{27}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Energy Spectrum}{28}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Eigenstates}{30}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Winding Number}{33}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Three-Dimensional Winding Trajectory}{33}{subsection.3.10}%
+\contentsline {section}{\numberline {4}Conclusion}{35}{section.4}%
+\contentsline {section}{References}{37}{section*.24}%
+\contentsline {section}{\numberline {A}Python Implementations}{38}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dispersion Relation and Winding Trajectories}{38}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Finite SSH Chain: Numerical Diagonalization}{39}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Finite SSH Chain with On-Site Potential}{42}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}SSH Model with On-Site Potential: Three-Dimensional Winding Trajectories}{45}{subsection.A.4}%
