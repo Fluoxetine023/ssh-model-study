@@ -26,10 +26,12 @@ The primary objectives of this internship were to:
 ## Repository Structure
 
 ```
-Internship-Summer_26/
+ssh-model-study/
 │
-├── .vscode/
-│   └── settings.json
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
 │
 ├── code/
 │   ├── ssh_model.py
@@ -38,26 +40,13 @@ Internship-Summer_26/
 │   └── winding_number.py
 │
 ├── Reading/
-│   ├── 1906.08435v1.pdf
-│   ├── 2509.16708v1.pdf
-│   ├── a short course on topological insulators.pdf
-│   ├── Introduction to quantum mechanics- griffith 3rd edition.epub
-│   ├── kittel.pdf
-│   ├── Topological_Insulator_1509.02295.pdf
-│   └── Topology in condensed matter an introduction.pdf
 │
-├── Report/
-│   ├── build/                      # LaTeX auxiliary/build files
-│   ├── Figures/
-│   │   └── onsite_potential/       # Figures for the on-site potential extension
-│   ├── main.tex
-│   ├── preamble.tex
-│   ├── References.bib
-│   ├── main.pdf
-│   └── SSH_Model_Internship_Report.pdf
-│
-├── .gitignore
-└── README.md
+└── Report/
+    ├── Figures/
+    ├── main.tex
+    ├── preamble.tex
+    ├── References.bib
+    └── SSH_Model_Internship_Report.pdf
 ```
 
 ---
