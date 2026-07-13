@@ -72,7 +72,7 @@ Studies the bulk SSH model with periodic boundary conditions.
 
 Features:
 - Energy dispersion relation
-- Winding trajectories in the $d_x$–$d_y$ plane
+- Winding trajectories in the $d_x$ – $d_y$ plane
 - Visualization of the topological phase transition
 - Publication-quality figures using Matplotlib
 
@@ -104,7 +104,7 @@ Visualizes the geometric interpretation of topology after adding an on-site pote
 
 Features:
 - Three-dimensional $d$-vector trajectories
-- Projection onto the $d_x$–$d_y$ plane
+- Projection onto the $d_x$ – $d_y$ plane
 - Illustration of the loss of the planar winding number
 
 ---
